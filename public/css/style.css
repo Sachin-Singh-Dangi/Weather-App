@@ -1,0 +1,96 @@
+body {
+  background-color: #fff;
+  font-family: monospace;
+  padding: 0 25%;
+  text-align: center;
+}
+/* main heading */
+h1 {
+  color: #45aaee;
+  padding-top: 6.5rem;
+  text-decoration: underline 2.5px #0077c2;
+  text-underline-offset: 7.5px;
+  padding-bottom: 10rem;
+}
+@media (max-width: 1024px) {
+  h1 {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
+}
+/* grey box */
+.main-box {
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  padding: 4.5rem 0 4.5rem 0;
+}
+/* cloud png in index page */
+.cloud-img {
+  position: absolute;
+  top: 235px;
+  right: 635px;
+  width: 13.5rem;
+}
+@media (max-width: 1024px) {
+  .cloud-img {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 70%;
+  }
+}
+@media (max-width: 480px) {
+  .cloud-img {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 70%;
+  }
+}
+/* main label text */
+.label-text {
+  font-weight: 700;
+}
+/* input box */
+#cityInp {
+  border-radius: 5px;
+  background-color: #e3f3fd;
+  border: 2px solid #0077c2;
+  outline: none;
+  padding: 0.33rem;
+}
+#cityInp::placeholder {
+  font-size: 0.75rem;
+  opacity: 0.5;
+}
+/* footer section */
+footer {
+  margin-top: 7.5rem;
+  padding: 2.5%;
+  background-color: #0077c2;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+p {
+  font-size: 1rem;
+  color: white;
+}
+@media (max-width: 480px) {
+  p {
+    font-size: 0.8rem;
+    color: white;
+  }
+}
+/* anchor tag linking to my website */
+a {
+  color: inherit;
+  text-underline-offset: 5px;
+}

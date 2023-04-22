@@ -1,0 +1,33 @@
+/* text color  */
+.para {
+  color: #000;
+}
+.main-temp {
+  font-size: 5.5rem;
+  color: #000;
+  text-decoration: none;
+  padding: 0;
+}
+.weather-png {
+  margin-top: 1.75rem;
+}
+.main-box {
+  padding: 3rem;
+}
+
+/* failure page */
+.f-h1{
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
+}
+.f-p{
+  color: #000;
+}
+
+.f-div{
+  margin-top: 10.5rem;
+  text-align: left;
+  width:25rem;
+}

@@ -1,0 +1,9 @@
+<%-include("header")-%>
+<div  class="f-div">
+    <h1 class="f-h1 display-4">Error Loading Weather Data!</h1>
+    <p class="f-p">We're sorry, the weather data could not be loaded due to an invalid input. Please check your location and try again.</p>
+<form action="/failure" method="post">
+    <button type="submit" class="btn btn-lg btn-warning" name="submit">Try Again</button>
+</form>
+</div>
+<%-include("footer")-%>

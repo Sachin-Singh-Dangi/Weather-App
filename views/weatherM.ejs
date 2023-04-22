@@ -1,0 +1,30 @@
+<%-include("header");-%>
+    <!-- main heading -->
+    <h1>Weather Report</h1>
+    <!-- js using ejs -->
+    <%const today = new Date(); const dateString = today.toLocaleDateString();%>
+    <div class="main-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-lg-9 text-end">
+                <h5 class="para"><%=dateString%></h5>
+                <h1 class="main-temp"><%=tempM%>°c</h1>
+              </div>
+              <div class="col-lg-3 text-start">
+                <img class="weather-png" src="<%=img_urlM%>" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 text-start">
+            <h5 class="para"><%=nameM%>,<%=countryNM%></h5>
+            <hr />
+            <h3 class="para"><%=weather_descM%></h3>
+            <p class="para"><strong>Humidity:</strong> <%=humidityM%>%</p>
+            <p class="para"><strong>Wind:</strong> <%=windSM%> KpH</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<%-include("footer");-%>
